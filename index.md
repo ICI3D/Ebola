@@ -1,11 +1,7 @@
 ---
 layout: page
-title: Ebola virus disease
-welcome: Code repository
-summary: This site hosts code for Ebola virus disease models from the ICI3D faculty.
+title: Ebola code repository
 ---
-
-# <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Ebola code repository</span>
 
 This repository contains all files needed to run the analyses in:
 
