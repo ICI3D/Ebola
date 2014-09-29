@@ -9,7 +9,7 @@ This site hosts code for Ebola virus disease models from the ICI3D faculty. The 
 
 ## Model code
 
-To get started, we suggest you open [this project file](Ebola.Rproj) file in [R Studio](rstudio.org), then open [**ebolaSEIR.R**](ebolaSEIR.R), which contains the model and code to generate relevant figures.
+To get started, we suggest you open [this project file](NEJM/Ebola.Rproj) file in [R Studio](rstudio.org), then open [**ebolaSEIR.R**](NEJM/ebolaSEIR.R), which contains the model and code to generate relevant figures.
 
 ## License
 
