@@ -1,5 +1,5 @@
-absoluteurl: http://ebola.ICI3D.org
-baseurl: ''
+absoluteurl: http://ICI3D.org
+baseurl: '/Ebola'
 markdown: kramdown
 exclude: ['index.html-OLD','people.md-OLD',redirect.html,README.md,run.sh]
 highlighter: pygments
