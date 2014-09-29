@@ -3,7 +3,7 @@ layout: page
 title: Ebola code repository
 ---
 
-This repository contains all files needed to run the analyses in:
+This site hosts code for Ebola virus disease models from the ICI3D faculty. The repository will contain all files needed to run the analyses in:
 
 > <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Bellan SE, JRC Pulliam, J Dushoff, and LA Meyers</span>. Asymptomatic infection, natural immunity, and Ebola dynamics. _Letter to the Editor, submitted to NEJM_.
 
