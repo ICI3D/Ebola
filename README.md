@@ -2,11 +2,7 @@
 
 This repository contains all files needed to run the analyses in:
 
-> <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Bellan SE, JRC Pulliam, J Dushoff, and LA Meyers</span>. Asymptomatic infection, natural immunity, and Ebola dynamics. _Letter to the Editor, submitted to NEJM_.
-
-## Model code
-
-To get started, we suggest you open [this project file](Ebola.Rproj) file in [R Studio](rstudio.org), then open [**ebolaSEIR.R**](ebolaSEIR.R), which contains the model and code to generate relevant figures.
+> <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Bellan SE, JRC Pulliam, J Dushoff, and LA Meyers</span>. Asymptomatic infection, natural immunity, and Ebola dynamics. Letter, submitted to _Lancet_.
 
 ## License
 
