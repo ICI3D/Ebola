@@ -3,13 +3,13 @@ layout: page
 title: Ebola code repository
 ---
 
-This site hosts code for Ebola virus disease models from the ICI3D faculty. The repository will contain all files needed to run the analyses in:
+This site hosts code for Ebola virus disease models from the ICI3D faculty. The repository contains all files needed to run the analyses in:
 
-> <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Bellan SE, JRC Pulliam, J Dushoff, and LA Meyers</span>. Asymptomatic infection, natural immunity, and Ebola dynamics. Letter submitted to _The Lancet_.
+> <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Bellan SE, JRC Pulliam, J Dushoff, and LA Meyers</span>. Impact of asymptomatic infection and acquired immunity on the spread and control of Ebola. Commentary submitted to _The Lancet_.
 
 ## Model code
 
-To get started, we suggest you open [this project file](Lancet/Ebola.Rproj) file in [R Studio](rstudio.org), then open [**ebolaSEIR.R**](Lancet/ebolaSEIR.R), which contains the model and code to generate relevant figures.
+This R script contains the model and code to generate relevant figures: [**ebolaSEIR.R**](Lancet/ebolaSEIR.R)
 
 ## License
 
