@@ -1,10 +1,26 @@
-####################################################################################################
-## Model of Ebola virus disease (EVD) outbreak in Liberia to compare projections made with and
-## without accounting for asymptomatic, non-infectious infections.
-## 
-## Accompanying Bellan SE, Pulliam JRC, Dushoff J, and Meyers LA. Lancet (2014).
-## 
+################################################################################## Model of Ebola virus disease (EVD) outbreak in Liberia to compare projections ## made with and without accounting for asymptomatic, non-infectious infections.
+##
+## Accompanying:
+##
+## Bellan SE, JRC Pulliam, J Dushoff, and LA Meyers. (2014) Impact of
+## asymptomatic infection and acquired immunity on the spread and control of
+## Ebola. Commentary, _The Lancet_.
+##
 ## Steve Bellan, September 28, 2014
+
+###############
+### LICENSE
+###
+### This code is made available under a Creative Commons Attribution 4.0
+### International License. You are free to reuse this code provided that you
+### give appropriate credit, provide a link to the license, and indicate if
+### changes were made.
+### You may do so in any reasonable manner, but not in any way that suggests
+### the licensor endorses you or your use. Giving appropriate credit includes
+### citation of the above publication *and* providing a link to this repository:
+###
+### https://github.com/ICI3D/Ebola
+###############
 
 rm(list=ls(all=T))
 library(deSolve) ## differential equation solver library
@@ -49,26 +65,26 @@ seiarModel <- function(t,y,params){
 	})
 }
 
-## The estimated basic reproduction numbers (R0) are 
-## 1.71 (95% CI, 1.44 to 2.01) for Guinea, 
+## The estimated basic reproduction numbers (R0) are
+## 1.71 (95% CI, 1.44 to 2.01) for Guinea,
 ## 1.83 (95% CI, 1.72 to 1.94) for Liberia,
 ## 2.02 (95% CI, 1.79 to 2.26) for Sierra Leone. (WHO Global Ebola Response Team Lancet 2014)
 R0 <- 1.83
 N0 <- 4*10^6 ## Liberia's population
 N0K <- N0/10^3 ## population size in thousands
 ## Initialize with one symptomatic infectious individual who will die.
-init <- c(S = N0-1, 
-          E = 0, 
-          Isurv = 0, 
-          Idead = 1, 
-          A = 0, 
-          R = 0, 
+init <- c(S = N0-1,
+          E = 0,
+          Isurv = 0,
+          Idead = 1,
+          A = 0,
+          R = 0,
           cumExp = 0, cumInc = 0, cumMort = 0)
 times<-seq(0,500,1) ## Simulate for 500 days
 
 param.vals<-c( ## Other parameters
               beta= NA, ## Calculated based on R0 and other parameters, see below.
-              N0=N0, 
+              N0=N0,
               mu= 0, ## Assume no birth/death for now, though it doesn't affect this toy model much. For 50 yr life expect mu=.02/365.25
               sigma=1/9.1, ## progression rate = 1/incubation or 1/latent period (assumed to be the
                            ## same for Ebola). Lancet estimat 9.1 days; CDC estimate 6 days.
@@ -77,11 +93,11 @@ param.vals<-c( ## Other parameters
               cfr = .723) ## case fatality rate. Lancet for Liberia = 72.3%
 
 Ro.calc<-function(params) { ## Analytical solution for R0
-    with(as.list(params), 
+    with(as.list(params),
     		 beta*(sigma/(mu+sigma)) * symp * (cfr/(mu+gamma) + (1-cfr)/(mu+gamma))
 )}
 beta.calc<-function(Ro,params) { ## Solve above function for beta
-    with(as.list(params), 
+    with(as.list(params),
     		 Ro/((sigma/(mu+sigma)) * symp * (cfr/(mu+gamma) + (1-cfr)/(mu+gamma)))
 )}
 
@@ -94,7 +110,7 @@ print(
 	sympHeffernan <- round((4/.3) / (10 + 4/.3), 2)
 )
 ## Estimated to one significant digit, this gives a rough estimate of 57% for symptomatic proportion in the below
-## model example. 
+## model example.
 
 ## However, some of these 10 asymptomatically infected individuals may have been infected from
 ## wildlife meaning that the actual asymptomatic infected proportion in this outbreak due to *human*
@@ -122,13 +138,13 @@ print(
 
 runSEIAR <- function(sympProp, paramVals = param.vals, basicReproNum = R0, browse=F){
 	if(browse) browser()
-	paramVals['symp'] <- sympProp 
+	paramVals['symp'] <- sympProp
 	paramVals['beta'] <- beta.calc(basicReproNum,paramVals)
 	print(paste("Calculated beta value for ",sympProp*100,"% symptomatic: ",round(paramVals['beta'],3),".",sep=""))
 	tc <- data.frame(lsoda(init, times, seiarModel, paramVals))  ## Run ODE model
 	tc$N <-  rowSums(tc[,c('S','E','Isurv','Idead','A','R')])    ## Calculate total population size
 	tc[,-1] <- tc[,-1] / 10^3                                    ## Show numbers (other than time) in thousands
-	tc$Reff <- R0*(tc$S/tc$N)                                    ## Calculate R_effective	
+	tc$Reff <- R0*(tc$S/tc$N)                                    ## Calculate R_effective
 	return(tc)
 }
 
@@ -171,7 +187,7 @@ print(crit(cumIncSymp=cI, symp=1)) ## Need to vaccinate 36% of individuals who h
 ## Figures
 ####################################################################################################
 
-## Figure in Lancet letter 
+## Figure in Lancet letter
 sel <- days > as.Date('2014-09-01') & days < as.Date('2015-01-10')  ## show Sep 2014 - Feb 2015
 if(SAVEPLOTS) png(file.path(plotPath, 'rel cumInc 2 panel.png'), w = 4, 5, units='in', res = 300)
     par('ps'=11, mar = c(4.5,5,.5,1), lwd = 2, mgp = c(3,1,0), mfrow = c(2,1))
@@ -281,4 +297,3 @@ for(ii in 1:2) {
     })
 }
 if(SAVEPLOTS) graphics.off()
-
