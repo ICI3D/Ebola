@@ -9,7 +9,7 @@ This site hosts code for Ebola virus disease models from the ICI3D faculty. The 
 
 ## Model code
 
-This R script contains the model and code to generate relevant figures: [**ebolaSEIR.R**]({{ site.subdomainurl }}Lancet/ebolaSEIR.R)
+This R script contains the model and code to generate relevant figures: [**ebolaSEIR.R**]({{ site.subdomainurl }}/Lancet/ebolaSEIR.R)
 
 ## License
 
