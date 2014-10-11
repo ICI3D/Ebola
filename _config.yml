@@ -1,8 +1,7 @@
-absoluteurl: http://ebola.ICI3D.org
+absoluteurl: http://www.ICI3D.org
+subdomainurl: http://ebola.ICI3d.org
 markdown: kramdown
 exclude:
-  - *-OLD
-  - redirect.html
   - README.md
-  - *.sh
+  - run.sh
 highlighter: pygments
