@@ -5,7 +5,7 @@ title: Ebola code repository
 
 This site hosts code for Ebola virus disease models from the ICI3D faculty. The repository contains all files needed to run the analyses in:
 
-> [<span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Bellan SE, JRC Pulliam, J Dushoff, and LA Meyers</span>. Impact of asymptomatic infection and acquired immunity on the spread and control of Ebola. _The Lancet_, October 14, 2014.](http://download.thelancet.com/flatcontentassets/pdfs/PIIS0140673614618390.pdf) [(Appendix)](http://download.thelancet.com/flatcontentassets/pdfs/PIIS0140673614618390_appendix.pdf)
+> <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Bellan SE, JRC Pulliam, J Dushoff, and LA Meyers</span>. [Ebola control: effect of asymptomatic infection and acquired immunity.](http://download.thelancet.com/flatcontentassets/pdfs/PIIS0140673614618390.pdf) _The Lancet_, October 14, 2014. ([Appendix](http://download.thelancet.com/flatcontentassets/pdfs/PIIS0140673614618390_appendix.pdf))
 
 ## Model code
 
