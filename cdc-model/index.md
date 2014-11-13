@@ -2,7 +2,7 @@
 layout: page
 title: CDC's EbolaResponse modeling tool
 welcome: An interactive, web-based reimplementation by CAB Pearson
-summary: We have re-implemented the model developed by Meltzer et al. This implementation of the model is not endorsed or reviewed by the CDC.
+summary: We have re-implemented the model developed by Meltzer et al. This implementation of the model is not endorsed or reviewed by the CDC. Links to source code and license information are provided at the bottom of this page (<a href="#Source">link</a>).
 ---
 
 ## Re-Implementation
@@ -14,6 +14,7 @@ The CDC's original implementation of the EbolaResponse modeling tool was publish
 > Meltzer, MI _et al_. (2014) Estimating the Future Number of Cases in the Ebola Epidemic --- Liberia and Sierra Leone, 2014-2015. _Morbidity and Mortality Weekly Report_ 63: 1–14. ([Link to paper](http://www.cdc.gov/mmwr/preview/mmwrhtml/su6303a1.htm), [EbolaResponse modeling tool spreadsheet](http://dx.doi.org/10.15620/cdc.24900))
 
 ## Source code
+<div id="Source"></div>
 
 This web-based version of their model is written in R and is made available under a Creative Commons attribution (CC-BY) license ([details below](#License)). The code was written by [Dr. Carl A.B. Pearson](http://www.pulliamlab.org/people/pearson), with plots by [Dr. Juliet R.C. Pulliam](http://www.pulliamlab.org/people/pulliam). The source code is available via a public GitHub repository:
 
