@@ -2,8 +2,12 @@
 layout: page
 title: CDC's EbolaResponse modeling tool
 welcome: An interactive, web-based reimplementation by CAB Pearson
-summary: We have re-implemented the model developed by Meltzer and colleagues. This implementation of the model is not associated with or endorsed by the CDC.
+summary: We have re-implemented the model developed by Meltzer et al. This implementation of the model is not endorsed or reviewed by the CDC.
 ---
+
+## Re-Implementation
+
+<iframe name="Model" src="https://pearsonca.shinyapps.io/CDC-Ebola-model/cdc-model.Rmd" width="1100px" height="2200px"></iframe>
 
 The CDC's original implementation of the EbolaResponse modeling tool was published as
 
