@@ -16,7 +16,7 @@ The CDC's original implementation of the EbolaResponse modeling tool was publish
 {: #source}
 ## Source code
 
-This web-based version of their model is written in R and is made available under a Creative Commons attribution (CC-BY) license ([details below](#License)). The code was written by [Dr. Carl A.B. Pearson](http://www.pulliamlab.org/people/pearson), with plots by [Dr. Juliet R.C. Pulliam](http://www.pulliamlab.org/people/pulliam). The source code is available via a public GitHub repository:
+This web-based version of their model is written in R and is made available under a Creative Commons attribution (CC-BY) license ([details below](#license)). The code was written by [Dr. Carl A.B. Pearson](http://www.pulliamlab.org/people/pearson), with plots by [Dr. Juliet R.C. Pulliam](http://www.pulliamlab.org/people/pulliam). The source code is available via a public GitHub repository:
 
 > [https://github.com/ICI3D/CDC-Ebola-model](https://github.com/ICI3D/CDC-Ebola-model).
 
