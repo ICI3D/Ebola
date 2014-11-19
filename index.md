@@ -1,9 +1,12 @@
 ---
 layout: page
 title: Ebola code repository
+summary: This site hosts code for Ebola virus disease models from the ICI3D faculty.
 ---
 
-This site hosts code for Ebola virus disease models from the ICI3D faculty. The repository contains all files needed to run the analyses in:
+# 1. Bellan _et al_. 2014 _The Lancet_
+
+The repository contains all files needed to run the analyses in:
 
 > <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Bellan SE, JRC Pulliam, J Dushoff, and LA Meyers</span>. [Ebola control: effect of asymptomatic infection and acquired immunity.](http://download.thelancet.com/flatcontentassets/pdfs/PIIS0140673614618390.pdf) _The Lancet_, October 14, 2014. ([Appendix](http://download.thelancet.com/flatcontentassets/pdfs/PIIS0140673614618390_appendix.pdf))
 
@@ -18,3 +21,9 @@ The code is made available under a <a rel="license" href="http://creativecommons
 <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/ICI3D/Ebola" rel="dct:source">https://github.com/ICI3D/Ebola</a>
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />
+
+# 2. Weitz and Dushoff 2014
+
+A preprint of a paper by Joshua Weitz and Jonathan Dushoff is available on ArXiv.
+
+> Weitz, JS and J Dushoff. [Post-death transmission of Ebola: challenges for inference and opportunities for control](http://arxiv.org/abs/1411.3435). Posted 14 November 2014. arXiv:1411.3435
