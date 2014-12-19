@@ -34,7 +34,7 @@ The repository contains all files needed to run the analyses in:
 
 > <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Bellan SE, JRC Pulliam, J Dushoff, and LA Meyers</span>. [Ebola virus vaccine trials: the ethical mandate for a therapeutic safety net.](http://www.bmj.com/content/349/bmj.g7518.full?ijkey=qHj1rqPkFuwxnAk&keytype=ref) Published online before print December 10, 2014. _The British Medical Journal_ 349:g7518.  
 
-## Model code
+# Model code
 
 This R script contains the model and code to generate relevant figures: [**equipoise.R**]({{ site.subdomainurl }}/BMJ/equipoise.R)
 
@@ -45,3 +45,8 @@ The code is made available under a <a rel="license" href="http://creativecommons
 <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/ICI3D/Ebola" rel="dct:source">https://github.com/ICI3D/Ebola</a>
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />
+
+# 4. Rivers _et al_. 2014 _Nature_
+
+
+> <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Rivers C, Alexander K, Bellan SE, Valle S Del, Drake JM, Eisenberg JNS, et al</span>. [Ebola: models do more than forecast.](http://www.nature.com/nature/journal/v515/n7528/full/515492a.html) Published online before print November 26, 2014. _Nature_.  
