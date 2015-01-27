@@ -12,16 +12,16 @@ summary: This is simple forecasting tool for predicting when the WHO Ebola-free 
 {: #source}
 ## Source code
 
-This web-based version of their model is written in R and is made available under a Creative Commons attribution (CC-BY) license ([details below](#license)). The code was written by [Dr. Carl A.B. Pearson](http://www.pulliamlab.org/people/pearson). The source code is available via a public GitHub repository:
+This forecasting tool is written in R and is made available under a Creative Commons attribution (CC-BY) license ([details below](#license)). The code for the web-based tool was written by [Dr. Carl A.B. Pearson](http://www.pulliamlab.org/people/pearson). The source code is available via a public GitHub repository:
 
 > [https://github.com/ICI3D/ebola-forecast](https://github.com/ICI3D/ebola-forecast).
 
 {: #citation}
 ## Citation
 
-Please cite this reimplementation of the model as:
+Please cite this tool as:
 
-> <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Pearson, CAB</span>. (2014) Web-based Ebola Forecasting Tool. [{{ site.subdomainurl }}/cdc-model]({{ site.subdomainurl }}/ebola-forecast). Source code available at [https://github.com/ICI3D/ebola-forecast](https://github.com/ICI3D/ebola-forecast).
+> <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Pearson, CAB and TC Porco</span>. (2014) Web-based Ebola Forecasting Tool. [{{ site.subdomainurl }}/ebola-forecast]({{ site.subdomainurl }}/ebola-forecast). Source code available at [https://github.com/ICI3D/ebola-forecast](https://github.com/ICI3D/ebola-forecast).
 
 {: #license}
 ## License
