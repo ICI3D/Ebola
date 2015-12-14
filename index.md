@@ -8,11 +8,9 @@ summary: This site hosts code for Ebola virus disease models from the ICI3D facu
 
 ## 1. Bellan _et al_. 2015 _Lancet Infectious Diseases_
 
-The most recent paper by the ICI3D faculty on Ebola is:
-
 > <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Bellan SE, JRC Pulliam, CAB Pearson, D Champredon, SJ Fox, L Skrip, AP Galvani, M Gambhir, BA Lopman, TC Porco, LA Meyers, and J Dushoff</span>. The statistical power and validity of Ebola vaccine trials in Sierra Leone: A simulation study of trial design and analysis. To be published online before print April 15, 2015. _Lancet Infectious Diseases_.  
 
-## Model code
+### Model code
 
 The models and code to generate all figures are available [**here**](https://github.com/sbellan61/EbolaVaccPowerSL).
 
@@ -30,7 +28,7 @@ The repository contains all files needed to run the analyses in:
 
 > <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Bellan SE, JRC Pulliam, J Dushoff, and LA Meyers</span>. [Ebola virus vaccine trials: the ethical mandate for a therapeutic safety net.](http://www.bmj.com/content/349/bmj.g7518.full?ijkey=qHj1rqPkFuwxnAk&keytype=ref) Published online before print December 10, 2014. _The British Medical Journal_ 349:g7518.  
 
-## Model code
+### Model code
 
 This R script contains the model and code to generate relevant figures: [**equipoise.R**]({{ site.subdomainurl }}/BMJ/equipoise.R)
 
