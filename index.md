@@ -58,7 +58,7 @@ The code is made available under a <a rel="license" href="http://creativecommons
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />
 
-## 4. Weitz and Dushoff 2014 _Scientific Advances_
+## 4. Weitz and Dushoff 2014 _Scientific Reports_
 
 > Weitz, JS and J Dushoff. [Modeling Post-death Transmission of Ebola: Challenges for Inference and Opportunities for Control](http://www.nature.com/articles/srep08751). _Scientific Reports_ 5: 8751. DOI:10.1038/srep08751
 
